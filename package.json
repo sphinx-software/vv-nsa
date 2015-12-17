@@ -21,6 +21,7 @@
     "url": "https://github.com/VnValley/vv-nsa/issues"
   },
   "homepage": "https://github.com/VnValley/vv-nsa#readme",
+  "readme": "visit https://github.com/VnValley/vv-nsa/blob/master/README.md",
   "dependencies": {
     "bluebird": "^3.1.1",
     "dotenv": "^1.2.0",
@@ -28,5 +29,8 @@
     "express": "^4.13.3",
     "lodash": "^3.10.1"
   },
-  "readme": "visit https://github.com/VnValley/vv-nsa/blob/master/README.md"
+  "devDependencies": {
+    "chai": "^3.4.1",
+    "mocha": "^2.3.4"
+  }
 }
