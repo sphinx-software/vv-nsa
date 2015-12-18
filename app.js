@@ -1,9 +1,10 @@
-var container = require('electrolyte');
+var container = require('./container');
 var express   = require('express');
 var app       = express();
 
-container.use(container.node_modules());
-container.use(container.node('src'));
-//TODO
+app.set('container', container);
+
+// Application routing
+app.use(container.create('router'));
 
 module.exports = app;
