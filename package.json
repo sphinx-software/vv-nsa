@@ -4,6 +4,8 @@
   "description": "VnValley Standard Skeleton for Node.JS Application",
   "main": "app.js",
   "scripts": {
+    "vv": "node vv",
+    "serve": "node server",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {

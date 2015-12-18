@@ -1,0 +1,4 @@
+{
+  "port": { "ENV": "APP_PORT", "defaults": 3000 },
+  "key": { "ENV": "APP_KEY", "defaults": "SomeRandomKey" }
+}
