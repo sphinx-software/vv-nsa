@@ -5,6 +5,6 @@ var app       = express();
 app.set('container', container);
 
 // Application routing
-app.use(container.create('router'));
+app.use(container.create('http/router'));
 
 module.exports = app;

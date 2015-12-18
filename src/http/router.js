@@ -1,12 +1,10 @@
-module.exports = function (express) {
+module.exports = function (express, homeController) {
     var router = express.Router();
 
-    router.get('/', function (request, response) {
-        response.send('Hello World');
-    });
+    router.get('/', homeController.index);
 
     return router;
 };
 
-module.exports['@require']   = ['express'];
+module.exports['@require']   = ['express', 'http/controller/home'];
 module.exports['@singleton'] = true;
