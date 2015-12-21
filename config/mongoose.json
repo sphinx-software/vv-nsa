@@ -1,0 +1,6 @@
+{
+  "default": "connection1",
+  "drivers": {
+    "connection1": "mongodb://localhost/test"
+  }
+}
