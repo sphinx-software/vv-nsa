@@ -1,6 +1,6 @@
 {
   "name": "vv-nsa",
-  "version": "1.0.12",
+  "version": "1.1.0",
   "description": "VnValley Standard Skeleton for Node.JS Application",
   "main": "app.js",
   "scripts": {
@@ -28,9 +28,7 @@
     "dotenv": "^1.2.0",
     "electrolyte": "^0.2.0",
     "express": "^4.13.3",
-    "vv-std-mongoosejs": "^1.0.12",
-    "vv-std-sequelize": "^1.0.12",
-    "vv-std-utils": "^1.0.12"
+    "vv-std": "^1.1.0"
   },
   "devDependencies": {
     "chai": "^3.4.1",
